@@ -640,6 +640,14 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-\[600px\] {
+  margin-left: 600px;
+}
+
 .ml-\[60px\] {
   margin-left: 60px;
 }
@@ -648,96 +656,20 @@ video {
   margin-right: 1rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
-.mb-\[3px\] {
-  margin-bottom: 3px;
-}
-
-.mb-\[5px\] {
-  margin-bottom: 5px;
-}
-
-.mb-\[7px\] {
-  margin-bottom: 7px;
-}
-
-.mb-\[6px\] {
-  margin-bottom: 6px;
-}
-
-.mb-\[4px\] {
-  margin-bottom: 4px;
-}
-
-.ml-\[200px\] {
-  margin-left: 200px;
-}
-
-.ml-\[100px\] {
-  margin-left: 100px;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
 }
 
-.ml-\[400px\] {
-  margin-left: 400px;
-}
-
-.ml-\[700px\] {
-  margin-left: 700px;
-}
-
-.ml-\[600px\] {
-  margin-left: 600px;
-}
-
-.mt-\[300px\] {
-  margin-top: 300px;
-}
-
-.mt-\[600px\] {
-  margin-top: 600px;
-}
-
-.mt-\[400px\] {
-  margin-top: 400px;
-}
-
-.mt-\[270px\] {
-  margin-top: 270px;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .mt-\[250px\] {
   margin-top: 250px;
 }
 
-.ml-3 {
-  margin-left: 0.75rem;
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .block {
@@ -780,16 +712,12 @@ video {
   height: 50px;
 }
 
-.h-auto {
-  height: auto;
-}
-
-.h-\[500px\] {
-  height: 500px;
-}
-
 .h-\[600px\] {
   height: 600px;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .w-\[1100px\] {
@@ -804,20 +732,12 @@ video {
   width: 200px;
 }
 
-.w-\[249px\] {
-  width: 249px;
-}
-
-.w-\[250px\] {
-  width: 250px;
-}
-
-.w-\[259px\] {
-  width: 259px;
-}
-
 .w-\[290px\] {
   width: 290px;
+}
+
+.w-\[350px\] {
+  width: 350px;
 }
 
 .w-\[445px\] {
@@ -848,16 +768,28 @@ video {
   width: 100%;
 }
 
-.w-\[350px\] {
-  width: 350px;
-}
-
-.w-\[1000px\] {
-  width: 1000px;
-}
-
 .w-svw {
   width: 100svw;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-\[99svw\] {
+  width: 99svw;
+}
+
+.w-\[95svw\] {
+  width: 95svw;
+}
+
+.w-\[97svw\] {
+  width: 97svw;
+}
+
+.w-\[98svw\] {
+  width: 98svw;
 }
 
 .items-center {
@@ -942,11 +874,6 @@ video {
   background-color: rgb(67 56 202 / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-cover {
   background-size: cover;
 }
@@ -965,10 +892,6 @@ video {
 
 .pt-10 {
   padding-top: 2.5rem;
-}
-
-.pt-2 {
-  padding-top: 0.5rem;
 }
 
 .text-4xl {
