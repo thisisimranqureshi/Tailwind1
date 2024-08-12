@@ -17,51 +17,50 @@
         :target {
             display: block;
         }
-   /* Hide the checkbox itself */
-input[type="checkbox"] {
-    display: none;
-}
 
-/* Hide the content by default */
-.content {
-    display: none;
-}
+        /* Hide the checkbox itself */
+        input[type="checkbox"] {
+            display: none;
+        }
 
-/* Show the content when the checkbox is checked */
-input[type="checkbox"]:checked ~ .content {
-    display: block;
-}
+        /* Hide the content by default */
+        .content {
+            display: none;
+        }
 
-/* Hide "Read More" when the checkbox is checked */
-input[type="checkbox"]:checked ~ .read-more1 {
-    display: none;
-}
+        /* Show the content when the checkbox is checked */
+        input[type="checkbox"]:checked~.content {
+            display: block;
+        }
 
-/* Show "Show Less" when the checkbox is checked */
-input[type="checkbox"]:checked ~ .read-less1 {
-    display: inline;
-}
+        /* Hide "Read More" when the checkbox is checked */
+        input[type="checkbox"]:checked~.read-more1 {
+            display: none;
+        }
 
-.read-less1 {
-    display: none;
-}
+        /* Show "Show Less" when the checkbox is checked */
+        input[type="checkbox"]:checked~.read-less1 {
+            display: inline;
+        }
 
-
-input[type="checkbox"]:checked ~ .read-more2 {
-    display: none;
-}
-
-/* Show "Show Less" when the checkbox is checked */
-input[type="checkbox"]:checked ~ .read-less2 {
-    display: inline;
-}
-
-.read-less2 {
-    display: none;
-}
+        
 
 
-    
+        input[type="checkbox"]:checked~.read-more2 {
+            display: none;
+        }
+
+        /* Show "Show Less" when the checkbox is checked */
+        input[type="checkbox"]:checked~.read-less2 {
+            display: inline;
+        }
+
+        .read-less2 {
+            display: none;
+        }
+
+
+
 
         .nav-link:hover {
             color: blue;
@@ -76,7 +75,7 @@ input[type="checkbox"]:checked ~ .read-less2 {
     </style>
 </head>
 
-<body class="">
+<body >
     <!--Header start -->
     <div class="w-full  h-[100px] flex items-center justify-between border-b-black border-2">
         <!--logo div -->
@@ -103,9 +102,9 @@ input[type="checkbox"]:checked ~ .read-less2 {
     <!--  Header ends -->
 
     <!-- Navigation start -->
-    <div class="flex justify-around mt-6">
-        <a href="#technology" class="nav-link">Technology</a>
-        <a href="#finance" class="nav-link">Finance</a>
+    <div class="flex justify-around mt-6"> 
+        <a href="../public/components/Travelling/travelling.html" class="nav-link">Technology</a>
+        <a href="../public/components/Finance/finance.html" class="nav-link">Finance</a>
         <a href="#sports" class="nav-link">Sports</a>
         <a href="#lifestyle" class="nav-link">Lifestyle</a>
         <a href="#health" class="nav-link">Health</a>
@@ -116,81 +115,11 @@ input[type="checkbox"]:checked ~ .read-less2 {
     </div>
     <!--  Navigation ends -->
 
-    <!-- Content sections -->
-    <div id="technology" class="pt-10 ">
-        <div class="flex justify-around w-[99]vw h-auto mb-6">
-             <!-- div 1 -->
-              
-        <div class="w-[250px] h-auto ">
-            <!-- image sections -->
-            <div class=" w-[249px] h-[170px] rounded-md  "><img class="w-[259px] h-[170px] rounded-t-md hover:"  src="../public/pics/travel-1.jpg" alt=""></div>
-            <!-- text sections -->
-             <div class="  border-[1px] border-t-0">
-             <p class="font-semibold">Explore the serene beauty of Kyoto’s landscapes, where ancient temples and
-                 lush gardens create a unique travel experience...
-                <a class="bg-indigo-700 read-more2 text-white font-bold inline-block  p-1 rounded-sm" href="../public/components/Travelling/travelling-1.html">Read More</a>
-                </p>
-              </div>
-              </div>
-             <!-- div 2 -->
-             <div class="w-[250px] h-auto  ">
-                <!-- image sections -->
-                <div class=" w-[249px] h-[170px]   "><img class="rounded-t-md w-[259px] h-[170px]"  src="../public/pics/travel-2.jpg" alt=""></div>
-                <!-- text sections -->
-                 <div class="border-[1px] border-t-0">
-                    <input type="checkbox" name="" id="ch2">
-                 <p class="font-semibold"> Discover the serenity  of mountain travel, where breathtaking
-                     vistas offer an unforgettable escape from the everyday...
-                    </p>
-                    <a class="bg-indigo-700 read-more2 text-white font-bold inline-block  p-1 rounded-sm" href="../public/components/Travelling/travelling-2.html">Read More</a>
-                    
-            
-                  </div>
-                  </div>
-        
-         <!-- div 3 -->
-         <div class="w-[250px] h-auto  ">
-            <!-- image sections -->
-            <div class=" w-[249px] h-[170px]   "><img class="rounded-t-md w-[259px] h-[170px]"  src="../public/pics/travel-3.jpg" alt=""></div>
-            <!-- text sections -->
-             <div class="border-[1px] border-t-0">
-                <input type="checkbox" name="" id="ch2">
-             <p class="font-semibold"> Discover the serenity  of mountain travel, where breathtaking
-                 vistas offer an unforgettable escape from the everyday...
-                </p>
-                <a class="bg-indigo-700 read-more2 text-white font-bold inline-block  p-1 rounded-sm" href="../public/components/Travelling/travelling-3.html">Read More</a>
-                
-        
-              </div>
-              </div>
-    </div>
 
 
-    <div class="flex justify-around w-[99]vw h-[300px] mb-6">
-         <!-- div 4 -->
-        <div class="w-[250px] h-[300px] border-[3px]  inline-flex"></div>
-        <div class="w-[250px] h-[300px] border-[3px] inline-block"></div>
-        <div class="w-[250px] h-[300px] border-[3px] inline-block"></div>
-    </div>
-
-    <div class="flex justify-around w-[99]vw h-[300px] mb-6">
-        <div class="w-[250px] h-[300px] border-[3px]  inline-flex"></div>
-        <div class="w-[250px] h-[300px] border-[3px] inline-block"></div>
-        <div class="w-[250px] h-[300px] border-[3px] inline-block"></div>
-    </div>
-    <div class="flex justify-around w-[99]vw h-[300px] mb-6">
-        <div class="w-[250px] h-[300px] border-[3px]  inline-flex"></div>
-        <div class="w-[250px] h-[300px] border-[3px] inline-block"></div>
-        <div class="w-[250px] h-[300px] border-[3px] inline-block"></div>
-    </div>
-        
-    </div>
-
-    <div id="finance" class="content">
-        <h2>Finance</h2>
-        <p>This is the content for the Finance category.</p>
-        <!-- Add more Finance-related content here -->
-    </div>
+        <!-- Content sections  for Finance-->
+   
+    
 
     <div id="sports" class="content">
         <h2>Sports</h2>
@@ -225,7 +154,7 @@ input[type="checkbox"]:checked ~ .read-less2 {
     </div>
 
     <!-- Add similar sections for other categories -->
-      
+
 </body>
 
 </html>
