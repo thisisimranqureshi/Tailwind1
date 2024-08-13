@@ -588,6 +588,10 @@ video {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -636,6 +640,26 @@ video {
   top: 60px;
 }
 
+.bottom-\[500px\] {
+  bottom: 500px;
+}
+
+.bottom-\[800px\] {
+  bottom: 800px;
+}
+
+.bottom-\[810px\] {
+  bottom: 810px;
+}
+
+.bottom-\[815px\] {
+  bottom: 815px;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -668,8 +692,44 @@ video {
   margin-top: 250px;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
+.ml-\[100px\] {
+  margin-left: 100px;
+}
+
+.ml-\[90px\] {
+  margin-left: 90px;
+}
+
+.ml-\[80px\] {
+  margin-left: 80px;
+}
+
+.ml-\[75px\] {
+  margin-left: 75px;
+}
+
+.ml-\[70px\] {
+  margin-left: 70px;
+}
+
+.ml-\[73px\] {
+  margin-left: 73px;
+}
+
+.ml-\[72px\] {
+  margin-left: 72px;
+}
+
+.ml-\[74px\] {
+  margin-left: 74px;
+}
+
+.ml-\[700px\] {
+  margin-left: 700px;
+}
+
+.ml-\[750px\] {
+  margin-left: 750px;
 }
 
 .block {
@@ -720,6 +780,14 @@ video {
   height: auto;
 }
 
+.h-\[200px\] {
+  height: 200px;
+}
+
+.h-\[250px\] {
+  height: 250px;
+}
+
 .w-\[1100px\] {
   width: 1100px;
 }
@@ -760,6 +828,10 @@ video {
   width: 900px;
 }
 
+.w-\[98svw\] {
+  width: 98svw;
+}
+
 .w-\[99\] {
   width: 99;
 }
@@ -768,28 +840,28 @@ video {
   width: 100%;
 }
 
-.w-svw {
-  width: 100svw;
+.w-\[800px\] {
+  width: 800px;
 }
 
-.w-screen {
-  width: 100vw;
+.w-\[600px\] {
+  width: 600px;
 }
 
-.w-\[99svw\] {
-  width: 99svw;
+.w-\[400px\] {
+  width: 400px;
 }
 
-.w-\[95svw\] {
-  width: 95svw;
+.w-\[420px\] {
+  width: 420px;
 }
 
-.w-\[97svw\] {
-  width: 97svw;
+.w-\[425px\] {
+  width: 425px;
 }
 
-.w-\[98svw\] {
-  width: 98svw;
+.w-\[430px\] {
+  width: 430px;
 }
 
 .items-center {
@@ -864,6 +936,11 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
 .border-b-black {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(0 0 0 / var(--tw-border-opacity));
@@ -894,6 +971,10 @@ video {
   padding-top: 2.5rem;
 }
 
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -910,6 +991,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .underline {
