@@ -27,6 +27,23 @@
         font-size: 45px;
         font: bold;  
     font-family:Georgia, 'Times New Roman', Times, serif  }
+    h2{ 
+        font-size:30px;
+        color:black;
+        font: bolder;
+
+    }
+    h3{
+        font-size:20px;
+        color:black;
+        font: 300;
+    }
+    /* Add these styles to your existing CSS */
+
+.fa-facebook, .fa-square-instagram, .fa-youtube, .fa-x-twitter {
+    font-size: 25px; 
+}
+
 
 
         /* Hide the content by default */
@@ -64,6 +81,16 @@
         .read-less2 {
             display: none;
         }
+        @keyframes scrolling {
+                    0%{
+                        transform:translateX(100%)
+                    }
+                    100%{
+                        transform:translateX(-100%)
+                    }
+                    
+                 }
+        
 
 
 
@@ -81,7 +108,7 @@
     </style>
 </head>
 
-<body >
+<body style="background-color: lightgrey;" >
     <!--Header start -->
     <div class="w-full  h-[100px] flex items-center justify-between border-b-black border-2">
         <!--logo div -->
@@ -109,12 +136,12 @@
 
     <!-- Navigation start -->
     <div class="flex justify-around mt-6"> 
-        <a href="../public/components/Travelling/travelling.html" class="nav-link">Technology</a>
+        <a href="../public/index.html" class="nav-link">Home</a>
+        <a href="../public/components/Travelling/travelling.html" class="nav-link">Traveling</a>
         <a href="../public/components/Finance/finance.html" class="nav-link">Finance</a>
         <a href="#sports" class="nav-link">Sports</a>
         <a href="#lifestyle" class="nav-link">Lifestyle</a>
         <a href="#health" class="nav-link">Health</a>
-        <a href="#education" class="nav-link">Education</a>
         <a href="#entertainment" class="nav-link">Entertainment</a>
         <a href="#politics" class="nav-link">Politics</a>
         <a href="#movies" class="nav-link">Movies</a>
@@ -132,38 +159,119 @@
       <!--  Main Content -->
      <div class=""><div class="w-[600px] h-auto   ml-[75px] inline-block">
            <!--  1st div -->
-            <div class="w-[600px] h-[250px] mb-5 flex  ">
-                <div class=" text w-[400px] h-[250px] border-[1px]"></div>
-                <div class="w-[200px] h-[250px] border-[1px] bg-cover" style="background-image: url(../public/pics/finance-12.jpg );">
+            <div class="w-[600px] h-[250px] mb-5 flex bg-white  ">
+                <div class=" text w-[400px] h-[250px] border-[1px]">
+                    <h1 class="text-black ml-[10px]"> Stock Market</h1>
+                    <h2 class="ml-[10px]">Finance</h2>
+                    <h3 class="ml-[10px]">Market has got liquidity last week.
+                        Discover the stories that inspire the world.Japnese Market got crashed last week...</h3>
+                        <a class="bg-indigo-700 ml-[10px] read-more2 text-white font-bold inline-block  p-1 rounded-sm"
+                            href="../public/components/Finance/finance-2.html">Read More</a>
+                </div>
+                <div class="w-[200px] h-[250px] border-[1px] bg-cover" style="background-image: url(../public/pics/finance-2.jpg );">
                 </div>
             </div>
             <!-- 2ndt div -->
-            <div class="w-[600px] h-[250px] mb-5 flex  ">
-                <div class="text w-[400px] h-[250px] border-[1px]"></div>
-                <div class="w-[200px] h-[250px] border-[1px]"></div>
-            </div>
-            <!--  3rd div -->
-            <div class="text w-[600px] h-[250px] mb-5 flex  ">
-                <div class="w-[400px] h-[250px] border-[1px]"></div>
-                <div class="w-[200px] h-[250px] border-[1px]"></div>
+            <div class="w-[600px] h-[250px] mb-5 flex bg-white ">
+                <div class=" text w-[400px] h-[250px] border-[1px]">
+                    <h1 class="text-black ml-[10px]">PUBG</h1>
+                    <h2 class="ml-[10px]">Gaming</h2>
+                    <h3 class="ml-[10px]">New Event Aquaman has come in Pubg.
+                        World Championship in thailand got attention.Japnese games ruling the world...</h3>
+                        <a class="bg-indigo-700 ml-[10px] read-more2 text-white font-bold inline-block  p-1 rounded-sm"
+                            href="../public/components/Finance/finance-2.html">Read More</a>
+                </div>
+                <div class="w-[200px] h-[250px] border-[1px] bg-cover" style="background-image: url(../public/pics/gaming.jpg );">
+                </div>
             </div>
             
         </div>
          <!--  Summary Content -->
-        <div class="w-[430px] h-auto absolute top-[790px]  ml-[750px] border-[2px]">
-                 <h1 class="font-bold text-black flex justify-center"> Discover</h1>
+        <div class="w-[430px] h-auto absolute top-[790px]  ml-[750px] overflow-hidden  ">
+                 <h1 class="font-bold text-black flex justify-center " style="animation: scrolling 5s linear infinite; animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1)infinte ; ">
+                     Discover More </h1>
             <div class="flex justify-between">
-                 <div class="h-[300px] w-[200px] mb-5  border-[2px]"></div>
-                 <div class="h-[300px] w-[200px] mb-5 border-[2px]"></div> </div>
+                <!-- div 1 -->
+                 <div class="h-[250px] w-[200px] mb-5 bg-white ">
+                    <!-- Image -->
+                    <div class=" w-[200px] h-[150px] bg-cover" style="background-image: url(../public/pics/travel-2.jpg);"></div>
+                    <div class="w-[200px] h-[100px] border-[1px] border-t-0">
+                        <h3 class="ml-[10px]">World best places you must visit...</h3>
+                        <a class="bg-indigo-700 ml-[10px] read-more2 text-white font-bold inline-block  p-1 rounded-sm"
+                            href="../public/components/Finance/finance-2.html">Discover More</a>
+                    </div>
+                 </div>
+                 <!-- div 2 -->
+                 <div class="h-[250px] w-[200px] bg-white mb-5">
+                    <!-- Image -->
+                    <div class=" w-[200px] h-[150px] bg-cover" style="background-image: url(../public/pics/finance-6.jpg);"></div>
+                    <div class="w-[200px] h-[100px] border-[1px] border-t-0">
+                        <h3 class="ml-[10px]" >Cryptocurrency is far better than fiat...</h3>
+                        <a class="bg-indigo-700 ml-[10px] read-more2 text-white font-bold inline-block  p-1 rounded-sm"
+                            href="../public/components/Finance/finance-2.html">Discover More</a>
+
+                 </div>
+                 </div>
+                </div>
             <div class="flex justify-between">
-                <div class="h-[300px] w-[200px] mb-5 border-[2px]"></div>
-                <div class="h-[300px] w-[200px] mb-5 border-[2px]"></div> </div>
-            <div class="flex justify-between">
-                <div class="h-[300px] w-[200px] mb-5 border-[2px]"></div>
-                <div class="h-[300px] w-[200px] mb-5 border-[2px]"></div> </div>
+                 <!-- div 3 -->
+                 <div class="h-[250px] w-[200px] bg-white mb-5">
+                    <!-- Image -->
+                    <div class=" w-[200px] h-[150px] bg-cover" style="background-image: url(../public/pics/dr\ doom.webp);"></div>
+                    <div class="w-[200px] h-[100px] border-[1px] border-t-0">
+                        <h3 class="ml-[10px]" >Marvel announces Robert as Dr Doom...</h3>
+                        <a class="bg-indigo-700 ml-[10px] read-more2 text-white font-bold inline-block  p-1 rounded-sm"
+                            href="../public/components/Finance/finance-2.html">Discover More</a>
+
+                 </div>
+                 </div>
+                        <!-- div 4 -->
+                        <div class="h-[250px] w-[200px] bg-white mb-5">
+                            <!-- Image -->
+                            <div class=" w-[200px] h-[150px] bg-cover" style="background-image: url(../public/pics/imran\ khan.jpg);"></div>
+                            <div class="w-[200px] h-[100px] border-[1px] border-t-0">
+                                <h3 class="ml-[10px]" >Imran Khan polished the nation...</h3>
+                                <a class="bg-indigo-700 ml-[10px] read-more2 text-white font-bold inline-block  p-1 rounded-sm"
+                                    href="../public/components/Finance/finance-2.html">Discover More</a>
+        
+                         </div>
+                         </div>
+                         </div>
             
         </div>
      </div>
+
+     
+
+
+     <!-- Footer-->
+
+     <div class="w-[98svw] h-[300px] absolute mt-[50px] ">
+        <!--About-->
+        <div class=" w-[98svw] h-[50px]  mt-[75px] flex justify-center ">
+          <div class="w-[600px] h-[50px]  flex justify-between items-center">
+            <a class="font-bold " href="">About</a>
+            <a class="font-bold " href="">Partners</a>
+            <a class="font-bold " href="">Visions</a>
+            <a class="font-bold " href="">Contributions</a> </div>
+
+        </div>
+        <!--Social Media -->
+        <div class=" w-[98svw] h-[50px]  flex justify-center ">
+            <div class="w-[500px] h-[50px] b flex justify-evenly items-center">
+            <a href="https://www.facebook.com"><i  class=" fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com"><i class=" fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.youtube.com"><i   class=" fa-brands fa-youtube"></i></a>
+            <a href="https://www.x.com"><i         class=" fa-brands fa-x-twitter"></i></a> </div>
+        </div>
+        <!-- License-->
+        <div class=" w-[98svw] h-[50px] flex justify-center items-center ">
+            <p><i class="fa-regular fa-copyright"></i>2024 Your Company,inc.All Rights Reserved</p>
+        </div>
+     </div>
+
+
+
 
 
 

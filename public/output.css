@@ -640,44 +640,12 @@ video {
   top: 60px;
 }
 
-.bottom-\[500px\] {
-  bottom: 500px;
-}
-
-.bottom-\[800px\] {
-  bottom: 800px;
-}
-
-.bottom-\[810px\] {
-  bottom: 810px;
-}
-
-.bottom-\[815px\] {
-  bottom: 815px;
-}
-
-.bottom-\[915px\] {
-  bottom: 915px;
-}
-
-.bottom-\[1015px\] {
-  bottom: 1015px;
-}
-
-.top-\[500px\] {
-  top: 500px;
-}
-
-.top-\[700px\] {
-  top: 700px;
-}
-
-.top-\[800px\] {
-  top: 800px;
-}
-
 .top-\[790px\] {
   top: 790px;
+}
+
+.z-\[20000\] {
+  z-index: 20000;
 }
 
 .mb-5 {
@@ -692,12 +660,24 @@ video {
   margin-left: 0.75rem;
 }
 
+.ml-\[10px\] {
+  margin-left: 10px;
+}
+
 .ml-\[600px\] {
   margin-left: 600px;
 }
 
 .ml-\[60px\] {
   margin-left: 60px;
+}
+
+.ml-\[750px\] {
+  margin-left: 750px;
+}
+
+.ml-\[75px\] {
+  margin-left: 75px;
 }
 
 .mr-4 {
@@ -716,44 +696,24 @@ video {
   margin-top: 250px;
 }
 
-.ml-\[100px\] {
-  margin-left: 100px;
+.mt-\[50px\] {
+  margin-top: 50px;
 }
 
-.ml-\[90px\] {
-  margin-left: 90px;
+.mt-\[70px\] {
+  margin-top: 70px;
 }
 
-.ml-\[80px\] {
-  margin-left: 80px;
+.mt-\[75px\] {
+  margin-top: 75px;
 }
 
-.ml-\[75px\] {
-  margin-left: 75px;
+.mb-7 {
+  margin-bottom: 1.75rem;
 }
 
-.ml-\[70px\] {
-  margin-left: 70px;
-}
-
-.ml-\[73px\] {
-  margin-left: 73px;
-}
-
-.ml-\[72px\] {
-  margin-left: 72px;
-}
-
-.ml-\[74px\] {
-  margin-left: 74px;
-}
-
-.ml-\[700px\] {
-  margin-left: 700px;
-}
-
-.ml-\[750px\] {
-  margin-left: 750px;
+.mb-\[100px\] {
+  margin-bottom: 100px;
 }
 
 .block {
@@ -776,12 +736,35 @@ video {
   display: none;
 }
 
+.size-\[50px\] {
+  width: 50px;
+  height: 50px;
+}
+
+.size-\[70px\] {
+  width: 70px;
+  height: 70px;
+}
+
+.size-\[100px\] {
+  width: 100px;
+  height: 100px;
+}
+
 .h-\[100px\] {
   height: 100px;
 }
 
+.h-\[150px\] {
+  height: 150px;
+}
+
 .h-\[170px\] {
   height: 170px;
+}
+
+.h-\[250px\] {
+  height: 250px;
 }
 
 .h-\[300px\] {
@@ -804,12 +787,12 @@ video {
   height: auto;
 }
 
-.h-\[200px\] {
-  height: 200px;
+.h-\[3000px\] {
+  height: 3000px;
 }
 
-.h-\[250px\] {
-  height: 250px;
+.h-\[700px\] {
+  height: 700px;
 }
 
 .w-\[1100px\] {
@@ -832,6 +815,14 @@ video {
   width: 350px;
 }
 
+.w-\[400px\] {
+  width: 400px;
+}
+
+.w-\[430px\] {
+  width: 430px;
+}
+
 .w-\[445px\] {
   width: 445px;
 }
@@ -846,6 +837,10 @@ video {
 
 .w-\[580px\] {
   width: 580px;
+}
+
+.w-\[600px\] {
+  width: 600px;
 }
 
 .w-\[900px\] {
@@ -864,28 +859,20 @@ video {
   width: 100%;
 }
 
-.w-\[800px\] {
-  width: 800px;
+.w-svw {
+  width: 100svw;
 }
 
-.w-\[600px\] {
-  width: 600px;
+.w-\[100px\] {
+  width: 100px;
 }
 
-.w-\[400px\] {
-  width: 400px;
+.w-\[99svw\] {
+  width: 99svw;
 }
 
-.w-\[420px\] {
-  width: 420px;
-}
-
-.w-\[425px\] {
-  width: 425px;
-}
-
-.w-\[430px\] {
-  width: 430px;
+.w-\[700px\] {
+  width: 700px;
 }
 
 .items-center {
@@ -910,6 +897,10 @@ video {
 
 .justify-evenly {
   justify-content: space-evenly;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-md {
@@ -943,6 +934,10 @@ video {
   border-width: 1px;
 }
 
+.border-\[3px\] {
+  border-width: 3px;
+}
+
 .border-\[2px\] {
   border-width: 2px;
 }
@@ -960,11 +955,6 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.border-red-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity));
-}
-
 .border-b-black {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(0 0 0 / var(--tw-border-opacity));
@@ -973,6 +963,11 @@ video {
 .bg-indigo-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(67 56 202 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
@@ -995,10 +990,6 @@ video {
   padding-top: 2.5rem;
 }
 
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1012,14 +1003,22 @@ video {
   font-weight: 600;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-\[100px\] {
+  font-weight: 100px;
 }
 
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
