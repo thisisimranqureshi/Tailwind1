@@ -656,6 +656,30 @@ video {
   bottom: 815px;
 }
 
+.bottom-\[915px\] {
+  bottom: 915px;
+}
+
+.bottom-\[1015px\] {
+  bottom: 1015px;
+}
+
+.top-\[500px\] {
+  top: 500px;
+}
+
+.top-\[700px\] {
+  top: 700px;
+}
+
+.top-\[800px\] {
+  top: 800px;
+}
+
+.top-\[790px\] {
+  top: 790px;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
